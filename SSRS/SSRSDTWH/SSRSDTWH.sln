@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "SSRSDTWH", "SSRSDTWH\SSRSDTWH.rptproj", "{3D934E3E-3AF3-40E9-A065-337B1CC1E5E4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D934E3E-3AF3-40E9-A065-337B1CC1E5E4}.Debug|Default.ActiveCfg = Debug
+		{3D934E3E-3AF3-40E9-A065-337B1CC1E5E4}.Debug|Default.Build.0 = Debug
+		{3D934E3E-3AF3-40E9-A065-337B1CC1E5E4}.Debug|Default.Deploy.0 = Debug
+		{3D934E3E-3AF3-40E9-A065-337B1CC1E5E4}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{3D934E3E-3AF3-40E9-A065-337B1CC1E5E4}.DebugLocal|Default.Build.0 = DebugLocal
+		{3D934E3E-3AF3-40E9-A065-337B1CC1E5E4}.Release|Default.ActiveCfg = Release
+		{3D934E3E-3AF3-40E9-A065-337B1CC1E5E4}.Release|Default.Build.0 = Release
+		{3D934E3E-3AF3-40E9-A065-337B1CC1E5E4}.Release|Default.Deploy.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D784A211-FF37-4759-A0F2-7C45FC5C4FD9}
+	EndGlobalSection
+EndGlobal

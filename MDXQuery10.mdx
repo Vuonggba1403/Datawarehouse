@@ -1,0 +1,5 @@
+SELECT [Measures].[FACT Sale Count] ON COLUMNS,
+       NON EMPTY ([DIM User].[USERGENDER].[USERGENDER].ALLMEMBERS,
+                           ([DIM Location].[CITY].[CITY].ALLMEMBERS,
+                                      [DIM Location].[REGION].[REGION].ALLMEMBERS)) ON ROWS
+FROM [FACT_Sale]

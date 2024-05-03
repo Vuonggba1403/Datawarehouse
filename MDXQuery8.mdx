@@ -1,0 +1,8 @@
+SELECT 
+  {[Measures].[ORDERDETAILID]} ON COLUMNS,
+  TOPCOUNT(
+    [DIM Location].[DISTRICT].[DISTRICT].ALLMEMBERS,
+    5,
+    [Measures].[ORDERDETAILID]
+  ) ON ROWS
+FROM [FACT_Sale_By_Store];

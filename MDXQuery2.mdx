@@ -1,0 +1,12 @@
+SELECT NON EMPTY {
+    [Measures].[TOTALPRICE],
+    [Measures].[AMOUNT]
+} ON COLUMNS,
+NON EMPTY {
+    TOPCOUNT(
+        [DIM Store].[STORE].ALLMEMBERS,
+        5,
+        [Measures].[TOTALPRICE] + [Measures].[AMOUNT]
+    )
+} ON ROWS
+FROM [FACT_Sale_By_Store]

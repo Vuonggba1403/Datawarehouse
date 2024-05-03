@@ -1,0 +1,29 @@
+<AnalysisServicesUserConfiguration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Configurations>
+    <Configuration>
+      <Name>Development</Name>
+      <Options>
+        <UserIDs>
+          <ConfigurationSetting>
+            <Id>Ware House</Id>
+            <Name>Ware House</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA94b4VXuPjku/1yumaYf38AAAAAAWAAAAVwBhAHIAZQAgAEgAbwB1AHMAZQAAABBmAAAAAQAAIAAAACyszEDEJJS+QeGhPcYhBvCFmjSoz3ffQsv1qz0vBs0YAAAAAA6AAAAAAgAAIAAAAKJGXlY6HzkMFbSAlPeB+aGCmeZSGMk8gTiLdFnTyCAxEAAAAKtEUDK5G1BtkfFkviAAzGtAAAAA7MQ6WiH/2egLQJA97QeYzj0YgNTysesCfJYWObLzvMk/xdc1oCH7iPeJqxt5dmmbQV16spOmQgPSt9VZLeTeOg==</Value>
+          </ConfigurationSetting>
+        </UserIDs>
+        <UserPasswords>
+          <ConfigurationSetting>
+            <Id>Ware House</Id>
+            <Name>Ware House</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA94b4VXuPjku/1yumaYf38AAAAAAWAAAAVwBhAHIAZQAgAEgAbwB1AHMAZQAAABBmAAAAAQAAIAAAAJbAPj/hsdIuHSMw7X/Wcp35nSZYdYFp5OXq010MfYsuAAAAAA6AAAAAAgAAIAAAABkOZhbW0MpMp4qpGh62tz49K9qNba9u8Zl3TFlm/ONrIAAAAHD3z5fSRXFzTOQ7Ptt1sRdu7MBTG65YnMmqQ1JKvLcyQAAAAH4CRolWaj0dbZm+qf57w6PF7gHE49WPHQyDbz5yGBEgs4fHccttHqlNuYRZpVJbkMUrd6FoGid/I5m6df12Urw=</Value>
+          </ConfigurationSetting>
+        </UserPasswords>
+        <TargetServer>VUONGBA1403</TargetServer>
+        <TargetDatabase>SSASWareHouse</TargetDatabase>
+        <StartObject>
+          <ObjectId></ObjectId>
+          <ObjectType>Current</ObjectType>
+        </StartObject>
+      </Options>
+    </Configuration>
+  </Configurations>
+</AnalysisServicesUserConfiguration>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RptDataSource xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="SSRSDTWH">
+  <ConnectionProperties>
+    <Extension>OLEDB</Extension>
+    <ConnectString>Provider=SQLOLEDB.1;Data Source=VUONGBA1403;Initial Catalog=WareHouse</ConnectString>
+  </ConnectionProperties>
+  <DataSourceID>eb11a2da-9880-4f8b-9876-937e86af1615</DataSourceID>
+</RptDataSource>

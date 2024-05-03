@@ -1,0 +1,8 @@
+SELECT 
+  {[Measures].[PRICE]} ON COLUMNS,
+  TOPCOUNT(
+    [DIM Date].[DATE].[DATE].ALLMEMBERS * [DIM Location].[ADDRESSTEXT].[ADDRESSTEXT].ALLMEMBERS,
+    10,
+    [Measures].[PRICE]
+  ) ON ROWS
+FROM [FACT_Sale_By_Store];

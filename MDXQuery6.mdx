@@ -1,0 +1,8 @@
+SELECT 
+  {[Measures].[AMOUNT], [Measures].[TOTALPRICE]} ON COLUMNS,
+  TOPCOUNT(
+    [DIM Location].[CITY].[CITY].ALLMEMBERS,
+    10,
+    [Measures].[TOTALPRICE]
+  ) ON ROWS
+FROM [FACT_Sale_By_Store];

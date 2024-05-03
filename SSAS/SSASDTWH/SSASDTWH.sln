@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "SSASDTWH", "SSASDTWH\SSASDTWH.dwproj", "{2B201AA4-BF72-46F9-B0C9-490A5C752B2B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B201AA4-BF72-46F9-B0C9-490A5C752B2B}.Development|Default.ActiveCfg = Development
+		{2B201AA4-BF72-46F9-B0C9-490A5C752B2B}.Development|Default.Build.0 = Development
+		{2B201AA4-BF72-46F9-B0C9-490A5C752B2B}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {58E93D60-21E9-49F5-8BC7-65106930F7C5}
+	EndGlobalSection
+EndGlobal
